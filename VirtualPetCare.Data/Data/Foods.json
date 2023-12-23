@@ -1,0 +1,28 @@
+[
+    {
+        "Id" : 1,
+        "FoodName" : "Pawsome Bites"
+    },
+
+    {
+        "Id" : 2,
+        "FoodName" : "Chirpy Crunchies"
+    },
+
+    {
+        "Id" : 3,
+        "FoodName" : "Fishy Feast"
+    },
+
+    {
+        "Id" : 4,
+        "FoodName" : "Seafood Splendor"
+    },
+
+    {
+        "Id" : 5,
+        "FoodName" : "Nutty Nibblers"
+    }
+    
+
+]

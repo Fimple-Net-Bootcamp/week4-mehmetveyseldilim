@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCare.API", "VirtualPetCare.API\VirtualPetCare.API.csproj", "{26CAFE6F-AB2D-435B-870D-F9004E539570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPetCare.Data", "VirtualPetCare.Data\VirtualPetCare.Data.csproj", "{2D4D0DFA-3ABD-48DB-980E-34A06DBF0AF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26CAFE6F-AB2D-435B-870D-F9004E539570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CAFE6F-AB2D-435B-870D-F9004E539570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CAFE6F-AB2D-435B-870D-F9004E539570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CAFE6F-AB2D-435B-870D-F9004E539570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4D0DFA-3ABD-48DB-980E-34A06DBF0AF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4D0DFA-3ABD-48DB-980E-34A06DBF0AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4D0DFA-3ABD-48DB-980E-34A06DBF0AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4D0DFA-3ABD-48DB-980E-34A06DBF0AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

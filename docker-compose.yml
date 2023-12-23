@@ -1,0 +1,28 @@
+version: '3.5'
+services:
+  virtualpetcare-postgres:
+    container_name: virtualpetcare-postgres-container
+    image: postgres:latest
+    ports:
+      - "6432:5432"
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: groot
+      POSTGRES_DB: VirtualPetCareDb
+    restart: unless-stopped
+#    volumes:
+#      - postgres-data1:/var/lib/postgresql/data
+    
+  virtualpetcare-pgadmin:
+    container_name: virtualpetcare-container-pgadmin
+    image: dpage/pgadmin4:latest
+    depends_on:
+      - virtualpetcare-postgres
+    ports:
+      - "6060:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: groot
+    restart: unless-stopped
+#volumes:
+#  postgres-data1:
