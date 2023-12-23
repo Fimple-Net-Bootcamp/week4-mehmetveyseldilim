@@ -1,3 +1,18 @@
+Clone the repo with git clone command "git clone https://github.com/Fimple-Net-Bootcamp/week4-mehmetveyseldilim.git"
+
+Go into directory and from command line "docker-compose up -d". (Requires docker on host pc)
+
+The docker-compose file will do the rest.
+
+Open Postman Collection file from Postman via Import Workspace.
+
+All the operations and tests are documented in postman collection file.
+
+
+
+
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/b2uNUfo9)
 ### Sanal Evcil Hayvan Bakımı API'si
 
