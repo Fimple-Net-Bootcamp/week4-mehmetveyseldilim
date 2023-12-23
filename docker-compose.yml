@@ -43,7 +43,6 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: "Development"
       ASPNETCORE_URLS: "http://+:7255"
-      
       SecretThree: "MyVerySecretActualSecretKeyIsThisSecretKeyNothingMore" # Replace with your actual secret key
     networks:
       - dev
